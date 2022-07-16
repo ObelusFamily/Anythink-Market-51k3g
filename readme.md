@@ -11,3 +11,11 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 ## First setup
 
 **[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+
+## Set up local environment
+1. Pull the repo by issuing the command `git clone https://github.com/ObelusFamily/Anythink-Market-51k3g.git`
+2. Install Docker and Docker Compose
+3. Confirm they are installed by running `docker -v` and `docker-compose -v`
+4. Change to the repo directory and run `docker-compose up`
+5. Verify you can connect to the local database by pointing your browser to http://localhost:3000/api/ping
+6. Create a test user at http://localhost:3001/register
